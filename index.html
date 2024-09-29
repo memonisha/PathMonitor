@@ -1,0 +1,32 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Real-Time Navigation Guide</title>
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <script src="video.js"></script>
+
+  <style>
+    body { font-family: Arial, sans-serif; text-align: center; }
+    video { width: 100%; max-width: 600px; }
+    #map { height: 400px; width: 100%; margin-top: 10px; }
+    #directions { margin-top: 10px; font-size: 1.2em; }
+  </style>
+</head>
+<body>
+  <h1>PATH MONITOR</h1>
+  <h3>...a real-time navigation guide</h3>
+  <video id="video" autoplay></video>
+  <div id="map"></div>
+  <div id="directions">Directions will appear here...</div>
+
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
+
